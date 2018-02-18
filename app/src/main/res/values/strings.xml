@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">LABBAIKA_1202152330</string>
+    <string name="nyan_cafe">Nyan The Cafe</string>
+
+    <string-array name="spinner_options">
+        <item name="meja1">Meja No.1</item>
+        <item name="meja2">Meja No.2</item>
+        <item name="meja3">Meja No.3</item>
+        <item name="meja4">Meja No.4</item>
+        <item name="meja5">Meja No.5</item>
+        <item name="meja6">Meja No.6</item>
+        <item name="meja7">Meja No.7</item>
+    </string-array>
+
+</resources>

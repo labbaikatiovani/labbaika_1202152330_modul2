@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.labbaika_1202152330.take_away">
+
+    <TextView
+        android:id="@+id/headerCust"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="Detail Nyan The Customer"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="245sp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/no_hp"
+        android:layout_alignStart="@+id/no_hp"
+        android:layout_below="@+id/headerCust"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:hint="Enter Nyan Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/no_hp"
+        android:layout_width="245sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:hint="Enter Nyan Phone" />
+
+    <EditText
+        android:id="@+id/alamat"
+        android:layout_width="245sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/no_hp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Enter Nyan Address" />
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="245sp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/alamat"
+        android:layout_alignStart="@+id/alamat"
+        android:layout_below="@+id/alamat"
+        android:layout_marginTop="24dp"
+        android:text="PESAN SEKARANG"
+        android:onClick="onClick"/>
+
+</RelativeLayout>
